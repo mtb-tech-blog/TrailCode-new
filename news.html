@@ -1,17 +1,84 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <title>News</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #111; color: #eee; padding: 20px; }
-    a { color: #4CAF50; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+<meta charset="UTF-8" />
+<title>News - TrailCode</title>
+<meta name="description" content="Ultime notizie e aggiornamenti sul mondo MTB, gare, manutenzione e tecnologia.">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #eee;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  article {
+    border-bottom: 1px solid #444;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  article:last-child {
+    border: none;
+  }
+  img.cover {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.7);
+  }
+  div.text-content {
+    flex-grow: 1;
+  }
+  h2 {
+    color: #4CAF50;
+    margin: 0 0 10px 0;
+  }
+  time {
+    font-size: 0.9em;
+    color: #999;
+    display: block;
+    margin-bottom: 10px;
+  }
+  p.intro {
+    margin: 0 0 10px 0;
+  }
+  a.read-more {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a.read-more:hover {
+    text-decoration: underline;
+  }
+</style>
 </head>
 <body>
-  <h1>News</h1>
-  <p>Qui puoi mettere le ultime novità dal mondo MTB, tecnologia e fitness.</p>
-  <p><a href="index.html">← Torna alla Home</a></p>
+
+<h1>News MTB - TrailCode</h1>
+
+<article>
+  <img src="images/news-aprica-2025.jpg" alt="Gara DH Aprica 2025" class="cover" />
+  <div class="text-content">
+    <h2>Gara DH Aprica 2025 - Il report completo</h2>
+    <time datetime="2025-06-29">29 giugno 2025</time>
+    <p class="intro">
+      Questo weekend l’Aprica ha ospitato una delle tappe più attese del circuito nazionale di Downhill 2025.
+    </p>
+   <a href="news/gara-aprica-2025.html" class="read-more">Leggi tutto →</a>
+  </div>
+</article>
+
+<!-- Aggiungi qui altre news -->
+
 </body>
 </html>
