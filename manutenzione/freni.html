@@ -73,8 +73,9 @@
 
 <div class="tabs">
   <button class="tab-button active" onclick="showTab(event, 'meccanici')">Meccanici</button>
-  <button class="tab-button" onclick="showTab('idraulici')">Idraulici</button>
-  <button class="tab-button" onclick="showTab('pattini')">Pattini</button>
+<button class="tab-button" onclick="showTab(event, 'idraulici')">Idraulici</button>
+<button class="tab-button" onclick="showTab(event, 'pattini')">Pattini</button>
+
 </div>
 
 <div id="meccanici" class="tab-content">
@@ -214,6 +215,7 @@
   document.getElementById(id).classList.add('active');
   event.currentTarget.classList.add('active');
 }
+
 
 </script>
 
