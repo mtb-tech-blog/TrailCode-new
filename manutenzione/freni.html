@@ -1,44 +1,112 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <title>Manutenzione Freni</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #111;
-      color: #eee;
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    a {
-      color: #4CAF50;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    h1 {
-      text-align: center;
-    }
-    img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin: 20px 0;
-    }
-  </style>
+<meta charset="UTF-8" />
+<title>Freni MTB - TrailCode</title>
+<meta name="description" content="Guida alla manutenzione dei freni meccanici, idraulici e a pattini per MTB.">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #eee;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  h1, h2 {
+    text-align: center;
+  }
+  p.select-text {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .tab-button {
+    background: #333;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: #eee;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+  }
+  .tab-button.active {
+    background: #4CAF50;
+  }
+  .tab-content {
+    background: #222;
+    padding: 20px;
+    border-radius: 0 5px 5px 5px;
+    display: none;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #444;
+    margin-top: 15px;
+  }
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
 </head>
 <body>
-  <h1>Manutenzione Freni</h1>
-  <p>I freni sono fondamentali per la sicurezza. Ecco alcuni consigli base per mantenerli al meglio:</p>
-  <ul>
-    <li>Controlla regolarmente le pastiglie e sostituiscile se sono consumate.</li>
-    <li>Pulisci i dischi con prodotti specifici per freni a disco.</li>
-    <li>Verifica che le leve siano ben regolate e che non ci siano perdite di olio (per freni idraulici).</li>
-  </ul>
-  <img src="../images/freni-disco.jpg" alt="Freni a disco" />
-  <p>Per approfondire, consulta il manuale specifico del produttore o chiedi a un meccanico specializzato.</p>
-  <p><a href="../manutenzione.html">← Torna alla pagina Manutenzione</a></p>
+
+<h1>Manutenzione Freni MTB</h1>
+<p class="select-text">Seleziona i tuoi freni</p>
+
+<div class="tabs">
+  <button class="tab-button active" onclick="showTab('meccanici')">Meccanici</button>
+  <button class="tab-button" onclick="showTab('idraulici')">Idraulici</button>
+  <button class="tab-button" onclick="showTab('pattini')">Pattini</button>
+</div>
+
+<div id="meccanici" class="tab-content active">
+  <h2>Freni Meccanici</h2>
+  <img src="../images/freni-meccanici.jpg" alt="Freni Meccanici" />
+  <p>Regolazione cavi, controllo leve, sostituzione pastiglie, controllo tensione e lubrificazione cavi.</p>
+</div>
+
+<div id="idraulici" class="tab-content">
+  <h2>Freni Idraulici</h2>
+  <img src="../images/freni-idraulici.jpg" alt="Freni Idraulici" />
+  <p>Controllo del liquido, spurgo, verifica pastiglie e tubi, manutenzione del sistema idraulico per prestazioni ottimali.</p>
+</div>
+
+<div id="pattini" class="tab-content">
+  <h2>Freni a Pattini</h2>
+  <img src="../images/freni-pattini.jpg" alt="Freni a Pattini" />
+  <p>Controllo e regolazione pattini, verifica cerchio, pulizia, sostituzione pattini usurati.</p>
+</div>
+
+<a href="index.html">← Torna alla pagina Manutenzione</a>
+
+<script>
+  function showTab(id) {
+    const tabs = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('.tab-button');
+    tabs.forEach(tab => tab.classList.remove('active'));
+    buttons.forEach(btn => btn.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    event.currentTarget.classList.add('active');
+  }
+</script>
+
 </body>
 </html>
