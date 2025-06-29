@@ -72,7 +72,7 @@
 <p class="select-text">Seleziona i tuoi freni</p>
 
 <div class="tabs">
-  <button class="tab-button active" onclick="showTab('meccanici')">Meccanici</button>
+  <button class="tab-button active" onclick="showTab(event, 'meccanici')">Meccanici</button>
   <button class="tab-button" onclick="showTab('idraulici')">Idraulici</button>
   <button class="tab-button" onclick="showTab('pattini')">Pattini</button>
 </div>
@@ -206,14 +206,15 @@
 <a href="../manutenzione.html">← Torna alla sezione Manutenzione</a>
 
 <script>
-  function showTab(id) {
-    const tabs = document.querySelectorAll('.tab-content');
-    const buttons = document.querySelectorAll('.tab-button');
-    tabs.forEach(tab => tab.classList.remove('active'));
-    buttons.forEach(btn => btn.classList.remove('active'));
-    document.getElementById(id).classList.add('active');
-    event.currentTarget.classList.add('active');
-  }
+ function showTab(event, id) {
+  const tabs = document.querySelectorAll('.tab-content');
+  const buttons = document.querySelectorAll('.tab-button');
+  tabs.forEach(tab => tab.classList.remove('active'));
+  buttons.forEach(btn => btn.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.currentTarget.classList.add('active');
+}
+
 </script>
 
 </body>
