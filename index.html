@@ -25,10 +25,13 @@
       gap: 8px;
       user-select: none;
       margin-bottom: 60px;
+      white-space: nowrap;
     }
     .text-part {
-      white-space: nowrap;
       color: #eee;
+      display: flex;
+      align-items: center;
+      gap: 3px;
     }
     .wheel {
       width: 48px;
@@ -79,7 +82,10 @@
       <line x1="12" y1="12" x2="52" y2="52" stroke="#4CAF50" stroke-width="2"/>
       <line x1="12" y1="52" x2="52" y2="12" stroke="#4CAF50" stroke-width="2"/>
     </svg>
-  </h1>
+    <span class="text-part">de</span>
+    <span class="text-part">c</span>
+    <span class="text-part">e</span>
+</h1>
 
   <div class="buttons-container">
     <button onclick="location.href='manutenzione/'">Manutenzione</button>
