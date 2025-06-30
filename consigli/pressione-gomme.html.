@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pressione Gomme MTB - Come Scegliere la Giusta Pressione | TrailCode</title>
+  <meta name="description" content="Scopri come scegliere la giusta pressione delle gomme per MTB in base a stile di guida, peso, terreno e tipo di copertura: tubeless, mousse o camera d'aria." />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #4CAF50;
+      text-align: center;
+    }
+
+    p, li {
+      line-height: 1.6;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    a.back-home {
+      display: block;
+      margin-top: 40px;
+      text-align: center;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.back-home:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Come Scegliere la Pressione delle Gomme MTB</h1>
+
+<p>La <strong>pressione delle gomme</strong> è un fattore molto personale e influenzato da diversi elementi: <strong>stile di guida</strong>, <strong>peso del rider e della bici</strong>, e dal tipo di copertura usata (tubeless, mousse o camere d’aria).</p>
+
+<h2>🎯 1. Stile di guida</h2>
+<p>Uno stile di guida pulito, fluido e senza colpi permette di usare pressioni più basse. Al contrario, se il tuo stile è più aggressivo e irruento, servirà aumentare la pressione per evitare forature o danni al cerchio.</p>
+
+<h2>🔧 2. Tipo di copertura: camera d’aria, tubeless o mousse</h2>
+<ul>
+  <li><strong>Camera d’aria:</strong> richiede pressioni più alte per evitare pizzicature.</li>
+  <li><strong>Tubeless:</strong> permette di scendere leggermente con la pressione, ma senza esagerare per non danneggiare il cerchio.</li>
+  <li><strong>Mousse:</strong> abbina protezione e comfort, consentendo pressioni ancora più basse. Ne esistono di diversi tipi: alcune più pesanti ma molto protettive, altre leggere ma meno efficaci nelle situazioni estreme.</li>
+</ul>
+
+<h2>⚖️ 3. Peso di bici e rider</h2>
+<p>Una bici più pesante, come una e-bike, o un rider con peso maggiore, necessitano generalmente di una pressione più alta per evitare deformazioni e migliorare la stabilità.</p>
+
+<h2>🔍 4. Sperimenta: non esiste una formula perfetta</h2>
+<p>Non c’è una pressione giusta valida per tutti. Il consiglio è: <strong>prova e adatta</strong>.</p>
+<p>Parti da una pressione standard e ripeti lo stesso percorso più volte, alzando o abbassando leggermente la pressione. Osserva:</p>
+<ul>
+  <li>La gomma si piega troppo in curva? 👉 Gonfia leggermente.</li>
+  <li>Non senti grip o la gomma rimbalza troppo? 👉 Sgonfia un po’.</li>
+</ul>
+
+<h2>🌍 5. Tipo di terreno</h2>
+<ul>
+  <li><strong>Terreno fangoso:</strong> abbassa la pressione per migliorare la trazione e l’aderenza dei tasselli.</li>
+  <li><strong>Terreno roccioso:</strong> aumenta la pressione per proteggere il cerchio da colpi secchi e forature.</li>
+</ul>
+
+<h2>🧾 Conclusione</h2>
+<p>La <strong>pressione delle gomme MTB</strong> va trovata su misura per te. Sperimenta, ascolta la bici e scegli la combinazione che ti dà il giusto mix tra grip, comfort e protezione.</p>
+
+<a href="../index.html" class="back-home">← Torna alla home</a>
+
+</body>
+</html>
