@@ -32,6 +32,28 @@
       text-align: center;
       margin-top: 40px;
     }
+
+    /* Nuovo stile per immagini in fila e ridotte */
+    .images-row {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: nowrap;
+      margin: 20px 0;
+    }
+    .images-row img {
+      width: 80px;
+      height: auto;
+      border-radius: 8px;
+      border: 2px solid #444;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      margin: 0; /* annulla margine verticale predefinito */
+    }
+    .images-row img:hover {
+      transform: scale(1.1);
+    }
   </style>
 </head>
 <body>
@@ -82,10 +104,11 @@ Il mozzo è il cuore della ruota: contiene i cuscinetti che permettono la rotazi
   <li><strong>Grasso specifico</strong> per cuscinetti</li>
 </ul>
 
-<img src="../images/chiavetiraraggi.jpg" alt="Chiave per raggi" />
-<img src="../images/museruola.jpg" alt="Museruola per centratura ruota" />
-<img src="../images/misuratensione.jpg" alt="Misuratore di tensione raggi" />
-
+<div class="images-row">
+  <img src="../images/chiavetiraraggi.jpg" alt="Chiave per raggi" />
+  <img src="../images/museruola.jpg" alt="Museruola per centratura ruota" />
+  <img src="../images/misuratensione.jpg" alt="Misuratore di tensione raggi" />
+</div>
 
 <h2>⚠️ Attenzione</h2>
 <p>
@@ -96,6 +119,3 @@ Tirare i raggi non è un’operazione facile. Richiede precisione, pazienza e st
 
 </body>
 </html>
-
-
-
