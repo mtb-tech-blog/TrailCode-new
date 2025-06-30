@@ -3,36 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <title>Consigli MTB - TrailCode</title>
-  <meta name="description" content="Consigli pratici per regolare altezza sella, setup manubrio e pressione gomme per la tua MTB.">
+  <meta name="description" content="Consigli pratici per la MTB: settaggio sella, gomme, forcella, ammortizzatore e altro." />
   <style>
     body {
       font-family: Arial, sans-serif;
       background: #111;
       color: #eee;
-      max-width: 800px;
-      margin: 20px auto;
+      max-width: 900px;
+      margin: auto;
       padding: 20px;
     }
-    h1, h2 {
+    h1 {
       text-align: center;
+      margin-bottom: 40px;
     }
-    h2 {
-      margin-top: 30px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
     }
-    p {
-      line-height: 1.5;
-    }
-    a {
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
       color: #4CAF50;
+      font-weight: bold;
+      font-size: 1.1rem;
+      user-select: none;
       text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 140px;
     }
-    a:hover {
-      text-decoration: underline;
+    .card:hover {
+      background-color: #4CAF50;
+      color: #111;
+      transform: scale(1.05);
+    }
+    .card img {
+      max-width: 50px;
+      height: auto;
+      margin-bottom: 15px;
     }
   </style>
 </head>
 <body>
-  <h1>Consigli per la tua MTB</h1>
 
-  <h2>Come regolare l'altezza della sella</h2>
-  <p>Per una pedalata efficiente e senza dolori, regola l'altezza della sella in modo che la gamba sia quasi completamente estesa quando il pedale
+<h1>Consigli Pratici per la MTB</h1>
+
+<div class="grid">
+  <a href="altezza-sella.html" class="card">
+    <img src="images/altezza-sella.png" alt="Altezza Sella" />
+    1. Altezza Sella
+  </a>
+  <a href="pressione-gomme.html" class="card">
+    <img src="images/pressione-gomme.png" alt="Pressione Gomme" />
+    2. Pressione Gomme
+  </a>
+  <a href="settaggio-forcella.html" class="card">
+    <img src="images/settaggio-forcella.png" alt="Settaggio Forcella" />
+    3. Corretto Settaggio della Forcella
+  </a>
+  <a href="settaggio-ammortizzatore.html" class="card">
+    <img src="images/settaggio-ammortizzatore.png" alt="Settaggio Ammortizzatore" />
+    4. Corretto Settaggio dell'Ammortizzatore
+  </a>
+  <a href="impostare-manubrio.html" class="card">
+    <img src="images/impostare-manubrio.png" alt="Impostare Manubrio" />
+    5. Come Impostare il Manubrio
+  </a>
+  <a href="scegliere-manopole.html" class="card">
+    <img src="images/scegliere-manopole.png" alt="Scegliere Manopole" />
+    6. Come Scegliere le Manopole
+  </a>
+  <a href="scegliere-taglia.html" class="card">
+    <img src="images/scegliere-taglia.png" alt="Scegliere Taglia" />
+    7. Come Scegliere la Taglia della Bici
+  </a>
+</div>
+
+</body>
+</html>
+
