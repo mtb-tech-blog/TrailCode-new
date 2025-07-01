@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Freni con ABS | TrailCode</title>
+  <meta name="description" content="Scopri come funziona l'ABS nei freni MTB: vantaggi, limiti, adozione recente e tecnologia emergente per maggiore sicurezza." />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #4CAF50;
+      text-align: center;
+    }
+    p, li {
+      line-height: 1.6;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      border: 2px solid #444;
+      margin: 20px 0;
+    }
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Freni con ABS per MTB</h1>
+
+<p>
+L'ABS (Anti-lock Braking System) sta iniziando a fare il suo ingresso anche nel mondo della mountain bike, specialmente nelle e‑MTB e nelle discipline gravity. Questo sistema impedisce alle ruote di bloccarsi durante frenate brusche, mantenendo aderenza e controllo.
+</p>
+
+<h2>✅ Vantaggi</h2>
+<ul>
+  <li><strong>Minor distanza di frenata</strong> in terreni scivolosi o misti, grazie alla modulazione automatica della pressione :contentReference[oaicite:1]{index=1}.</li>
+  <li><strong>Migliore stabilità e controllo</strong>, poiché le ruote non si bloccano, evitando slittamenti o “tonfi” per over‑frenata :contentReference[oaicite:2]{index=2}.</li>
+  <li><strong>Sicurezza in condizioni estreme</strong>, soprattutto per rider meno esperti o su e‑bike pesanti, dove l’ABS agisce come un’efficace rete di sicurezza :contentReference[oaicite:3]{index=3}.</li>
+</ul>
+
+<h2>❌ Svantaggi</h2>
+<ul>
+  <li><strong>Peso aggiuntivo</strong> dovuto ai sensori e moduli ABS, che può influire leggermente sul feeling della bicicletta :contentReference[oaicite:4]{index=4}.</li>
+  <li><strong>Costo superiore</strong>, perché l'installazione richiede componenti dedicati e sviluppo elettronico :contentReference[oaicite:5]{index=5}.</li>
+  <li><strong>Perdita del "feel" puro</strong> della frenata, che potrebbe non piacere ai rider molto tecnici :contentReference[oaicite:6]{index=6}.</li>
+  <li><strong>Efficienza ridotta su superfici sciolte</strong> come ghiaia profonda, dove a volte i rider fanno affidamento sul blocco controllato per manovrare meglio :contentReference[oaicite:7]{index=7}.</li>
+</ul>
+
+<h2>📈 Diffusione e adozione</h2>
+<p>
+I sistemi più diffusi arrivano dall'e-bike e dal trekking: **Bosch eMAGURA** hanno introdotto versioni ABS per MTB che migliorano la sicurezza in discesa e nei freni di potenza elevata :contentReference[oaicite:8]{index=8}.
+</p>
+
+<img src="images/mtb_abs_example.jpg" alt="Sistema ABS montato su forcella MTB" />
+
+<p>
+Seconda generazione Bosch ABS Pro è stata progettata specificamente per MTB, con sensori più compatti, meno peso e algoritmi di modulazione avanzata :contentReference[oaicite:9]{index=9}.
+</p>
+
+<h2>⚙️ Come funziona l’ABS MTB</h2>
+<ul>
+  <li>I sensori rilevano la velocità di rotazione della ruota.</li>
+  <li>Quando localizzano una perdita di grip o eccessiva decelerazione, il sistema modula la pressione frenante.</li>
+  <li>L’ABS “pompa” la frenata istantaneamente, evitando il blocco e garantendo continuità di frenata e direzionalità :contentReference[oaicite:10]{index=10}.</li>
+</ul>
+
+<h2>⚠️ Quando può non essere adatto</h2>
+<ul>
+  <li>Rider tecnicamente esperti potrebbero preferire blocchi controllati per slittamenti intenzionali o manovre di precisione.</li>
+  <li>In trail estremamente sciolti, come sabbia fine o ghiaia profonda, l'ABS potrebbe aumentare leggermente la distanza di frenata :contentReference[oaicite:11]{index=11}.</li>
+</ul>
+
+<p>
+In sintesi, l'ABS nei freni MTB può essere un grande alleato per la **sicurezza, la stabilità e la confidenza**, soprattutto in condizioni difficili o per chi guida con meno esperienza.
+</p>
+
+<a href="curiosita.html" class="back-link">← Torna alle curiosità</a>
+
+</body>
+</html>
