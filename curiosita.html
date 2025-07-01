@@ -120,6 +120,149 @@ In molti se lo chiedono, ma la risposta è più utile di quanto sembri.
     <a href="curiosita/sfiato.html" class="card-button">Leggi di più</a>
     </div>
   </article>
+  <!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Curiosità MTB – TrailCode</title>
+  <meta name="description" content="Scopri curiosità e fatti interessanti sulla mountain bike: forcelle a steli rovesciati, freni con ABS, blocco forcella RockShox e molto altro." />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #4CAF50;
+    }
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #222;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(76, 175, 80, 0.7);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      flex-shrink: 0;
+      border-bottom: 2px solid #4CAF50;
+    }
+    .card-content {
+      padding: 15px 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-title {
+      font-size: 1.3rem;
+      margin: 0 0 10px;
+      color: #4CAF50;
+    }
+    .card-snippet {
+      flex-grow: 1;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 15px;
+      color: #ccc;
+    }
+    .card-button {
+      align-self: flex-start;
+      background: #4CAF50;
+      color: #111;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+    }
+    .card-button:hover {
+      background-color: #388E3C;
+    }
+    @media (max-width: 480px) {
+      .card img {
+        height: 120px;
+      }
+    }
+    a.back-home {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    a.back-home:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Curiosità MTB</h1>
+
+<div class="cards-container">
+
+  <article class="card">
+    <img src="images/forcella-steli-rovesciati.jpg" alt="Forcelle a steli rovesciati" />
+    <div class="card-content">
+      <h2 class="card-title">Forcelle a steli rovesciati</h2>
+      <p class="card-snippet">
+        Le forcelle a steli rovesciati, o upside-down (USD), sono progettate per aumentare la rigidità e migliorare la precisione di guida. Lo stelo più spesso è in basso, vicino alla ruota, riducendo la flessione nelle discese tecniche.
+      </p>
+      <a href="curiosita/forcelle.html" class="card-button">Leggi di più</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <img src="images/freni-abs.jpg" alt="Freni con sistema ABS" />
+    <div class="card-content">
+      <h2 class="card-title">Freni con ABS per MTB</h2>
+      <p class="card-snippet">
+        L'ABS per freni MTB è una tecnologia emergente che previene il bloccaggio delle ruote in frenata, aumentando la sicurezza soprattutto in discesa su terreni scivolosi o tecnici.
+      </p>
+      <a href="curiosita/freni-abs.html" class="card-button">Leggi di più</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <img src="images/luce.png" alt="Blocco forcella RockShox con LED rosso" />
+    <div class="card-content">
+      <h2 class="card-title">Blocco forcella RockShox in gara</h2>
+      <p class="card-snippet">
+        Quest’anno RockShox ha introdotto un sistema che permette di bloccare la forcella in gara, con un LED rosso molto visibile. Scopri come funziona e se migliora davvero le prestazioni in gara.
+      </p>
+      <a href="curiosita/blocco-forcella-rockshox.html" class="card-button">Leggi di più</a>
+    </div>
+  </article>
+
+</div>
+
+<a href="index.html" class="back-home">← Torna alla Home</a>
+
+</body>
+</html>
+
 </div>
 
 <a href="index.html" class="back-home" style="display:block; text-align:center; margin-top:40px; color:#4CAF50; text-decoration:none; font-weight:bold;">← Torna alla Home</a>
