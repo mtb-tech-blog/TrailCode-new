@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://mtb-tech-blog.github.io/TrailCode-new/</loc>
+  </url>
+
+  <!-- Consigli -->
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/consigli/altezza-sella.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/consigli/gomme.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/consigli/pastiglie.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/consigli/pressione-gomme.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/consigli/scegliere-manopole.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/consigli/scelta-taglia.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/consigli/settaggio-ammortizzatore.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/consigli/settaggio-forcella.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/consigli/settaggio-manubrio.html</loc></url>
+
+  <!-- Curiosità -->
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/curiosità/blocco-forcella-rockshox.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/curiosità/cerchi-carbonio-vs-alluminio.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/curiosità/forcelle.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/curiosità/freni-abs.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/curiosità/sfiato.html</loc></url>
+
+  <!-- Manutenzione -->
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/ammortizzatore.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/cambio.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/forcella.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/freni-idraulici.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/freni-meccanici.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/freni-pattini.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/freni.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/guarnitura.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/index.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/pedali.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/reggisellatelescopico.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/ruota.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/manutenzione/seriesterzo.html</loc></url>
+
+  <!-- Notizie -->
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/notizie/aprica.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/notizie/dhandorra.html</loc></url>
+  <url><loc>https://mtb-tech-blog.github.io/TrailCode-new/notizie/orbeaFMD.html</loc></url>
+
+</urlset>
