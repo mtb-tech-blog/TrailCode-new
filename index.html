@@ -15,9 +15,9 @@
   <meta name="author" content="Andrea Cazzago">
   <meta name="robots" content="index, follow">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="Profilo.png">
-  <link rel="shortcut icon" type="image/png" href="Profilo.png">
+  <!-- Favicon CORRETTA (Google userà questa) -->
+  <link rel="icon" href="Profilo.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="Profilo.png">
 
   <!-- Open Graph -->
   <meta property="og:title" content="TrailCode | MTB Tech Blog">
@@ -54,17 +54,6 @@
       margin-bottom: 20px;
       text-shadow: 0 0 10px #4CAF50;
       font-weight: 600;
-    }
-
-    /* FOTO PROFILO */
-    .profile-pic {
-      width: 180px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 3px solid #4CAF50;
-      margin-bottom: 40px;
-      box-shadow: 0 0 15px rgba(76,175,80,0.7);
     }
 
     .button {
@@ -126,16 +115,12 @@
       height: 20px;
       filter: brightness(0) invert(1);
     }
-
   </style>
 </head>
 
 <body>
 
   <h1>Benvenuto su TrailCode</h1>
-
-  <!-- FOTO PROFILO VISIBILE -->
-  <img src="Profilo.png" alt="Foto profilo" class="profile-pic">
 
   <button class="button" onclick="location.href='manutenzione/'">Manutenzione</button>
   <button class="button" onclick="location.href='news.html'">News</button>
