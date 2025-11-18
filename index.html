@@ -19,7 +19,7 @@
   <link rel="icon" type="image/png" href="Profilo.png">
   <link rel="shortcut icon" type="image/png" href="Profilo.png">
 
-  <!-- Open Graph (anteprime social) -->
+  <!-- Open Graph -->
   <meta property="og:title" content="TrailCode | MTB Tech Blog">
   <meta property="og:description" content="Guide, manutenzione e curiosità sulla mountain bike. Scopri TrailCode.">
   <meta property="og:image" content="https://mtb-tech-blog.github.io/TrailCode-new/immagini/trailcode-preview.jpg">
@@ -32,7 +32,7 @@
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
-  <!-- Stili CSS -->
+  <!-- CSS -->
   <style>
     body {
       background: linear-gradient(135deg, #0b0b0b, #121b12);
@@ -46,15 +46,25 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      position: relative;
     }
 
     h1 {
       font-size: 3rem;
       color: #4CAF50;
-      margin-bottom: 60px;
+      margin-bottom: 20px;
       text-shadow: 0 0 10px #4CAF50;
       font-weight: 600;
+    }
+
+    /* FOTO PROFILO */
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #4CAF50;
+      margin-bottom: 40px;
+      box-shadow: 0 0 15px rgba(76,175,80,0.7);
     }
 
     .button {
@@ -80,18 +90,6 @@
       transform: scale(1.05);
     }
 
-    @media (max-width: 480px) {
-      h1 {
-        font-size: 2rem;
-      }
-      .button {
-        padding: 15px 30px;
-        font-size: 1.1rem;
-        min-width: 180px;
-      }
-    }
-
-    /* Footer */
     footer {
       position: fixed;
       bottom: 0;
@@ -128,12 +126,16 @@
       height: 20px;
       filter: brightness(0) invert(1);
     }
+
   </style>
 </head>
 
 <body>
 
   <h1>Benvenuto su TrailCode</h1>
+
+  <!-- FOTO PROFILO VISIBILE -->
+  <img src="Profilo.png" alt="Foto profilo" class="profile-pic">
 
   <button class="button" onclick="location.href='manutenzione/'">Manutenzione</button>
   <button class="button" onclick="location.href='news.html'">News</button>
