@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fox 2025: novità sospensioni | TrailCode</title>
+  <meta name="description" content="Le novità 2025 di Fox: evoluzioni su Fox 38 e 36, aggiornamenti idraulici e cosa cambia per chi fa enduro e downhill. Breve panoramica per smontare il marketing e capire l'essenziale.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #4CAF50;
+      text-align: center;
+    }
+    p, li {
+      line-height: 1.6;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      border: 2px solid #444;
+      margin: 20px 0;
+    }
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Fox 2025: cosa cambia davvero</h1>
+
+<p>
+Fox ha aggiornato la sua gamma di sospensioni per il 2025 concentrandosi su piccoli miglioramenti che, combinati, cercano di alzare il livello di controllo e sensibilità. Le novità principali riguardano in particolare le <strong>Fox 38</strong> (modelli da enduro/aggressive trail) e la <strong>Fox 36</strong> (all-mountain), con affinamenti su idrauliche e opzioni di tuning.
+</p>
+
+<h2>🔧 Aggiornamenti tecnici chiave</h2>
+<ul>
+  <li><strong>Nuova cartuccia RCV/EVOL rivista:</strong> miglior gestione delle basse velocità e minore fading in ripetute discese lunghe.</li>
+  <li><strong>Maggiore range di regolazione della compressione HSC/LSC:</strong> per adattarsi da trail aggressivo a settaggi race con pochi click.</li>
+  <li><strong>Peso contenuto:</strong> ottimizzazioni interne che riducono qualche decina di grammi senza sacrificare rigidità.</li>
+  <li><strong>Maggior compatibilità con ruote 29&quot; e setup mullet:</strong> assetto e progressività tarati per entrambi gli allestimenti.</li>
+</ul>
+
+<h2>✅ Cosa significa per chi fa enduro</h2>
+<p>
+Per un endurista le modifiche non sono rivoluzionarie ma sono pratiche: più controllo in ingresso curva e meno affondamento nelle compressioni ripetute. In sostanza, la forcella vuole dare più confidenza quando si spinge forte su sezioni consecutive e si frena molto.
+</p>
+
+<h2>💡 Quando conviene aggiornare?</h2>
+<p>
+Se hai già una Fox recente (ultimi 3 anni) e non senti limiti grossi, il salto non è obbligatorio. Se però fai gare o cerchi ogni margine di performance (meno fading, settaggi più fini), l'aggiornamento alla versione 2025 o una revisione con cartuccia aggiornata vale la pena.
+</p>
+
+<img src="../images/fox38-2025.jpg" alt="Dettaglio forcella Fox 38 2025">
+
+<h2>🛠️ Piccolo consiglio pratico</h2>
+<p>
+Prima di cambiare forcella o cartuccia, prova a lavorare su: pressione aria (se prevista), olio e controllo della progressività con spacers. A volte basta poco per ottenere un comportamento molto più vicino a quello promesso dalle specifiche 2025.
+</p>
+
+<a href="curiosita.html" class="back-link">← Torna alle curiosità</a>
+
+</body>
+</html>
