@@ -3,63 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <title>Consigli MTB - TrailCode</title>
-  <meta name="description" content="Consigli pratici per la MTB: settaggio sella, gomme, forcella, ammortizzatore e altro." />
+  <meta name="description" content="Consigli pratici per la MTB: settaggio sella, gomme, forcella, ammortizzatore e molto altro." />
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #111;
+      background: #0e0e0e;
       color: #eee;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
       padding: 20px;
     }
+
     h1 {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 50px;
+      color: #4CAF50;
+      font-size: 2.2rem;
+      letter-spacing: 1px;
     }
+
+    /* --- Nuova Griglia --- */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
     }
+
+    /* --- Nuova Card --- */
     .card {
-      background: #222;
-      padding: 20px;
-      border-radius: 10px;
+      background: #1a1a1a;
+      padding: 25px;
+      border-radius: 15px;
       text-align: center;
       cursor: pointer;
-      transition: transform 0.2s ease, background-color 0.2s ease;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      text-decoration: none;
       color: #4CAF50;
       font-weight: bold;
-      font-size: 1.1rem;
-      user-select: none;
-      text-decoration: none;
+      font-size: 1.2rem;
+      box-shadow: 0 0 18px rgba(0,0,0,0.6);
+      transition: 0.25s ease;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      height: 140px;
+      border: 1px solid #2c2c2c;
     }
+
     .card:hover {
-      background-color: #4CAF50;
+      background: #4CAF50;
+      transform: translateY(-6px) scale(1.03);
       color: #111;
-      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(76,175,80,0.4);
     }
+
+    /* --- Immagini più grandi --- */
     .card img {
-      max-width: 50px;
+      width: 120px;
       height: auto;
       margin-bottom: 15px;
+      border-radius: 8px;
     }
+
     a.back-link {
+      display: block;
+      margin-top: 50px;
+      text-align: center;
       color: #4CAF50;
       text-decoration: none;
-      display: block;
-      text-align: center;
-      margin-top: 40px;
       font-weight: bold;
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
+
     a.back-link:hover {
       text-decoration: underline;
     }
@@ -70,48 +84,52 @@
 <h1>Consigli Pratici per la MTB</h1>
 
 <div class="grid">
+
   <a href="consigli/altezza-sella.html" class="card">
     <img src="images/altezza-sella.png" alt="Altezza Sella" />
-    1. Altezza Sella
+    Altezza Sella
   </a>
+
   <a href="consigli/pressione-gomme.html" class="card">
     <img src="images/pressione-gomme.png" alt="Pressione Gomme" />
-    2. Pressione Gomme
+    Pressione Gomme
   </a>
+
   <a href="consigli/settaggio-forcella.html" class="card">
     <img src="images/settaggio-forcella.png" alt="Settaggio Forcella" />
-    3. Corretto Settaggio della Forcella
+    Settaggio Forcella
   </a>
+
   <a href="consigli/settaggio-ammortizzatore.html" class="card">
     <img src="images/settaggio-ammortizzatore.png" alt="Settaggio Ammortizzatore" />
-    4. Corretto Settaggio dell'Ammortizzatore
+    Settaggio Ammortizzatore
   </a>
+
   <a href="consigli/settaggio-manubrio.html" class="card">
     <img src="images/impostare-manubrio.png" alt="Impostare Manubrio" />
-    5. Come Impostare il Manubrio
+    Impostare il Manubrio
   </a>
+
   <a href="consigli/scegliere-manopole.html" class="card">
-    <img src="images/scegliere-manopole.png" alt="Scegliere Manopole" />
-    6. Come Scegliere le Manopole
+    <img src="images/scegliere-manopole.png" alt="Scegliere le Manopole" />
+    Scegliere le Manopole
   </a>
+
   <a href="consigli/scelta-taglia.html" class="card">
-    <img src="images/taglia.jpg" alt="Scegliere Taglia" />
-    7. Come Scegliere la Taglia della Bici
-<a href="consigli/pastiglie.html" class="card">
-  <img src="images/pastiglie-freno.jpg" alt="Pastiglie Freno MTB" />
-  <span>Pastiglie Freno MTB: Tipi, Usura e Consigli</span>
-</a>
-  <a href="consigli/gomme.html" class="card">
-    <img src="images/scelta-gomme.png" alt="Scelta Gomme MTB" />
-    8. Come Scegliere le Gomme MTB
+    <img src="images/taglia.jpg" alt="Scelta Taglia" />
+    Scegliere la Taglia
   </a>
-    <a href="consigli/malemani.html" class="card">
-    <img src="images/malemani.png" alt="Male alle mani" />
-    8. Come risolvere il male alle mani
-    </a> 
-</div>
 
-<a href="index.html" class="back-link">← Torna alla home</a>
+  <a href="consigli/pastiglie.html" class="card">
+    <img src="images/pastiglie-freno.jpg" alt="Pastiglie Freno" />
+    Pastiglie Freno MTB
+  </a>
 
-</body>
-</html>
+  <a href="consigli/gomme.html" class="card">
+    <img src="images/scelta-gomme.png" alt="Scelta Gomme" />
+    Scegliere le Gomme
+  </a>
+
+  <a href="consigli/malemani.html" class="card">
+    <img src=
+
