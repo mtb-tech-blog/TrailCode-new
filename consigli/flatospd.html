@@ -9,33 +9,62 @@
       font-family: Arial, sans-serif;
       background: #111;
       color: #eee;
-      max-width: 800px;
+      max-width: 850px;
       margin: auto;
       padding: 20px;
     }
 
     h1, h2, h3, h4 {
-      text-align: center;
       color: #4CAF50;
+      text-align: center;
     }
 
     p, li {
-      line-height: 1.6;
+      line-height: 1.65;
     }
 
-    ol, ul {
+    ul, ol {
       margin-left: 20px;
+    }
+
+    .section-box {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 25px 0;
+    }
+
+    .img-center {
+      display: block;
+      margin: 15px auto;
+      width: 260px;
+      border-radius: 6px;
+    }
+
+    .two-img {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .two-img img {
+      width: 45%;
+      border-radius: 8px;
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
-      margin: 20px 0;
+      margin: 30px 0;
       background: #222;
+      border-radius: 10px;
+      overflow: hidden;
     }
 
     table th, table td {
-      padding: 10px;
+      padding: 12px;
       border: 1px solid #444;
       text-align: center;
     }
@@ -44,40 +73,24 @@
       background: #333;
     }
 
-    .small-img {
-      display: block;
-      margin: 10px auto;
-      width: 180px;
-      border-radius: 6px;
+    a.link {
+      color: #4CAF50;
+      font-weight: bold;
+      text-decoration: none;
     }
-
-    .medium-img {
-      display: block;
-      margin: 10px auto;
-      width: 250px;
-      border-radius: 6px;
+    a.link:hover {
+      text-decoration: underline;
     }
 
     a.back-home {
       display: block;
-      margin-top: 40px;
       text-align: center;
+      margin-top: 40px;
       color: #4CAF50;
-      text-decoration: none;
       font-weight: bold;
+      text-decoration: none;
     }
-
     a.back-home:hover {
-      text-decoration: underline;
-    }
-
-    a.link {
-      color: #4CAF50;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    a.link:hover {
       text-decoration: underline;
     }
   </style>
@@ -85,141 +98,158 @@
 <body>
 
 <h1>🚴‍♂️ Pedali Flat vs SPD</h1>
+<p>I pedali influenzano moltissimo sicurezza, velocità e controllo della bici. Flat e SPD sono due mondi diversi: entrambi ottimi, ma per usi e stili molto differenti.</p>
 
-<p>I pedali influenzano tantissimo il modo di guidare la bici. Sia i <strong>flat</strong> sia gli <strong>SPD</strong> sono ottimi, ma ognuno ha vantaggi e svantaggi a seconda dello stile di guida, del terreno e dell’esperienza del rider.</p>
+<div class="two-img">
+  <img src="../images/flat.png" alt="Pedali Flat">
+  <img src="../images/spd.png" alt="Pedali SPD">
+</div>
 
-<h2>🔍 Differenze principali</h2>
-<p>La differenza sta nel collegamento tra scarpa e pedale:</p>
+<div class="section-box">
+  <h2>🔍 Differenze in breve</h2>
+  <ul>
+    <li><strong>Flat</strong> → pedale libero, superficie larga, pin per grip.</li>
+    <li><strong>SPD</strong> → aggancio meccanico piede-pedale tramite tacchetta.</li>
+  </ul>
+</div>
 
-<ul>
-  <li><strong>Flat</strong>: piattaforma larga con pin → piede libero.</li>
-  <li><strong>SPD</strong>: aggancio a tacchetta → piede fissato al pedale.</li>
-</ul>
+<!-- ====================== FLAT SECTION ====================== -->
 
-<h2>🟩 Vantaggi dei Pedali Flat</h2>
+<div class="section-box">
+  <h2>🟩 Vantaggi dei Pedali Flat</h2>
+  <img src="../images/flat.png" class="img-center">
 
-<img src="../images/flat.png" alt="Pedali flat MTB" class="medium-img">
+  <ul>
+    <li><strong>Libertà massima</strong>: puoi togliere il piede in un istante.</li>
+    <li><strong>Perfetti per imparare</strong> tecnica e movimenti.</li>
+    <li><strong>Molto sicuri</strong> nel tecnico dove devi mettere giù il piede.</li>
+    <li><strong>Grip ottimo</strong> con scarpe adeguate.</li>
+  </ul>
 
-<ul>
-  <li><strong>Libertà totale</strong> del piede in ogni momento.</li>
-  <li><strong>Perfetti per imparare tecnica</strong> (manual, bunny hop, pump).</li>
-  <li><strong>Sicurezza</strong> nelle sezioni tecniche dove devi mettere giù il piede.</li>
-  <li><strong>Miglior feeling</strong> su bagnato o terreni scivolosi.</li>
-</ul>
+  <h3>🟥 Svantaggi</h3>
+  <ul>
+    <li>Meno efficienza in salita.</li>
+    <li>Meno stabilità ad altissima velocità.</li>
+    <li>Serve una scarpa studiata apposta per avere grip.</li>
+  </ul>
+</div>
 
-<h2>🟥 Svantaggi dei Pedali Flat</h2>
+<!-- ====================== SPD SECTION ====================== -->
 
-<ul>
-  <li><strong>Meno efficienza</strong> in salita.</li>
-  <li><strong>Meno stabilità</strong> alle altissime velocità.</li>
-  <li><strong>Serve una scarpa specifica</strong> per avere grip serio.</li>
-</ul>
+<div class="section-box">
+  <h2>🟦 Vantaggi dei Pedali SPD</h2>
+  <img src="../images/spd.png" class="img-center">
 
-<h2>🟦 Vantaggi dei Pedali SPD</h2>
+  <ul>
+    <li><strong>Efficienza elevata</strong>: spinta + trazione.</li>
+    <li><strong>Posizione piede sempre perfetta.</strong></li>
+    <li><strong>Stabilità incredibile</strong> nello scassato veloce.</li>
+    <li><strong>Controllo top</strong> nei salti e nei cambi di peso.</li>
+  </ul>
 
-<img src="../images/spd.png" alt="Pedali SPD" class="medium-img">
+  <h3>🟥 Svantaggi</h3>
+  <ul>
+    <li>Richiedono pratica per agganciare/sganciare.</li>
+    <li>Meno margine d'errore nel tecnico lento.</li>
+    <li>Le tacchette si consumano e richiedono manutenzione.</li>
+  </ul>
+</div>
 
-<ul>
-  <li><strong>Alta efficienza</strong>: spingi e tiri.</li>
-  <li><strong>Piede sempre nella posizione perfetta</strong>.</li>
-  <li><strong>Stabilità mostruosa</strong> sullo scassato veloce.</li>
-  <li><strong>Controllo migliore</strong> nei salti e nei cambi di peso.</li>
-</ul>
+<!-- ====================== TACCHETTE e REGOLAZIONI ====================== -->
 
-<h2>🟥 Svantaggi degli SPD</h2>
+<div class="section-box">
+  <h2>⚙️ Tacchette, regolazioni e tipi di aggancio</h2>
+  <img src="../images/tacchette.png" class="img-center">
 
-<ul>
-  <li><strong>Serve pratica</strong> per abituarsi all’aggancio/sgancio.</li>
-  <li><strong>Margine d'errore minore</strong> nelle sezioni super tecniche.</li>
-  <li><strong>Tacchette che si consumano</strong> e richiedono manutenzione.</li>
-</ul>
+  <h3>🎯 Angolo di sgancio (float)</h3>
+  <p>Indica quanti gradi può ruotare il piede prima dello sgancio:</p>
+  <ul>
+    <li><strong>4°–5°</strong> → sgancio rapido e secco.</li>
+    <li><strong>8°–10°</strong> → più libertà e comfort.</li>
+  </ul>
 
-<h2>⚙️ Tipi di aggancio e regolazioni SPD</h2>
+  <p>Esistono anche tacchette <strong>multi-release</strong> che sganciano verso l’alto o in diagonale → perfette per chi inizia.</p>
 
-<img src="../images/tacchette.png" alt="Tacchette SPD" class="medium-img">
+  <h3>🔧 Regolazione della durezza</h3>
+  <p>Gli SPD hanno una vite laterale che regola la tensione:</p>
 
-<h3>🎯 Angolo di sgancio (float)</h3>
-<p>Le tacchette SPD possono avere diversi “float”, cioè la rotazione del piede prima dello sgancio:</p>
+  <ul>
+    <li><strong>Soft</strong> → sgancio facilissimo (ideale per imparare).</li>
+    <li><strong>Hard</strong> → aggancio solidissimo per guida aggressiva.</li>
+  </ul>
 
-<ul>
-  <li><strong>4°–5°</strong> → sgancio più secco.</li>
-  <li><strong>8°–10°</strong> → più libertà, più comfort.</li>
-</ul>
+  <h3>🧲 Aggancio magnetico</h3>
+  <img src="../images/pedalimagnetici.png" class="img-center">
+  <p>Un sistema alternativo molto interessante:</p>
 
-<p>Ci sono anche tacchette <strong>multi-release</strong> che sganciano anche tirando verso l’alto o in diagonale → più facili e sicure per chi inizia.</p>
+  <ul>
+    <li><strong>Meno meccanica</strong> che può sporcarsi o incepparsi.</li>
+    <li><strong>Sgancio naturale</strong>: basta tirare lateralmente.</li>
+    <li><strong>Feeling simile ai flat</strong> ma con più stabilità.</li>
+    <li><strong>Meno efficienti</strong> degli SPD in salita.</li>
+  </ul>
+</div>
 
-<h3>🔧 Regolazione della durezza</h3>
-<p>I pedali SPD hanno una <strong>vite laterale</strong> che permette di regolare la tensione:</p>
+<!-- ====================== SCARPE ====================== -->
 
-<ul>
-  <li><strong>Morbido</strong>: sgancio facile → ideale per imparare.</li>
-  <li><strong>Duro</strong>: aggancio più fermo → per guida aggressiva.</li>
-</ul>
+<div class="section-box">
+  <h2>👟 Scarpe per Flat e SPD</h2>
 
-<h3>🧲 Pedali con aggancio magnetico</h3>
+  <h3>🟩 Scarpe per Flat</h3>
+  <ul>
+    <li>Suola molto morbida e grip elevato.</li>
+    <li>Protezione su punta e tallone.</li>
+  </ul>
 
-<img src="../images/pedalimagnetici.png" alt="Pedali magnetici" class="medium-img">
+  <p><strong>Tipi:</strong></p>
+  <ul>
+    <li><strong>Casual</strong>: leggere, poco protettive.</li>
+    <li><strong>Enduro/Trail</strong>: equilibrio perfetto.</li>
+    <li><strong>DH</strong>: massima protezione e rigidità.</li>
+  </ul>
 
-<p>Esistono anche sistemi alternativi, come quelli <strong>magnetici</strong> (es. Hustle Labs, MagPed):</p>
+  <h3>🟦 Scarpe SPD</h3>
 
-<ul>
-  <li><strong>Niente meccanismo metallico</strong>.</li>
-  <li><strong>Sgancio super naturale</strong>: basta tirare lateralmente.</li>
-  <li><strong>Ottimo compromesso</strong> tra libertà dei flat e stabilità degli SPD.</li>
-  <li><strong>Meno efficienti</strong> degli SPD in salita.</li>
-</ul>
+  <h4>⚡ XC</h4>
+  <ul>
+    <li>Rigidissime → efficienza massima.</li>
+    <li>Super leggere.</li>
+    <li>Poca protezione laterale.</li>
+  </ul>
 
-<h2>👟 Scarpe: quali usare?</h2>
+  <h4>⛰️ Trail / Enduro</h4>
+  <ul>
+    <li>Rigidità media → camminabili.</li>
+    <li>Buona protezione.</li>
+  </ul>
 
-<h3>🟩 Scarpe per Flat</h3>
+  <h4>🏁 DH SPD</h4>
+  <ul>
+    <li>Massima protezione.</li>
+    <li>Più peso ma più sicurezza.</li>
+  </ul>
+</div>
 
-<ul>
-  <li><strong>Suola morbida e molto grip</strong>.</li>
-  <li><strong>Protezione alta</strong> su punta e tallone.</li>
-</ul>
+<!-- ====================== QUANDO USARLI ====================== -->
 
-<p>Tipologie:</p>
-<ul>
-  <li><strong>Casual</strong> – leggere ma poco protettive.</li>
-  <li><strong>Enduro/Trail</strong> – equilibrio perfetto.</li>
-  <li><strong>Downhill</strong> – massima protezione e rigidità.</li>
-</ul>
+<div class="section-box">
+  <h2>🏁 Quando usare Flat e quando SPD?</h2>
 
-<h3>🟦 Scarpe per SPD</h3>
+  <ol>
+    <li><strong>Se sei principiante</strong> → Flat.</li>
+    <li><strong>Enduro tecnico</strong>  
+      <br>✔ Esperti → SPD  
+      <br>✔ Sicurezza → Flat
+    </li>
+    <li><strong>Giri con tante salite</strong> → SPD.</li>
+    <li><strong>Bike park e salti</strong> → Flat.</li>
+    <li><strong>Gare</strong>  
+      <br>✔ Stabilità pura → SPD  
+      <br>✔ Correzioni rapide → Flat</li>
+  </ol>
+</div>
 
-<h4>⚡ XC</h4>
-<ul>
-  <li>Rigidissime → massima efficienza.</li>
-  <li>Molto leggere.</li>
-  <li>Poca protezione laterale.</li>
-</ul>
-
-<h4>⛰️ Trail / Enduro</h4>
-<ul>
-  <li>Suola rigida ma camminabile.</li>
-  <li>Ottima protezione.</li>
-  <li>Perfette per uso enduro con SPD.</li>
-</ul>
-
-<h4>🏁 DH SPD</h4>
-<ul>
-  <li>Robustissime.</li>
-  <li>Più pesanti ma super sicure.</li>
-</ul>
-
-<h2>🏁 Quando usare Flat o SPD?</h2>
-
-<ol>
-  <li><strong>Principianti</strong> → Flat.</li>
-  <li><strong>Enduro tecnico</strong> →  
-      - Esperti: SPD  
-      - Sicurezza: Flat</li>
-  <li><strong>Giri con tante salite</strong> → SPD.</li>
-  <li><strong>Bike park e salti</strong> → Flat.</li>
-  <li><strong>Gare</strong> → dipende dal tuo stile:  
-      - stabilità → SPD  
-      - correzioni rapide → Flat</li>
-</ol>
+<!-- ====================== RIEPILOGO ====================== -->
 
 <h2>🧾 Riepilogo veloce</h2>
 
@@ -230,12 +260,14 @@
     <th>Svantaggi</th>
     <th>Ideale per…</th>
   </tr>
+
   <tr>
     <td>Flat</td>
     <td>Libertà, sicurezza, tecnica</td>
     <td>Meno stabilità in velocità</td>
     <td>Principianti, park, salti</td>
   </tr>
+
   <tr>
     <td>SPD</td>
     <td>Efficienza, stabilità, controllo</td>
@@ -244,8 +276,10 @@
   </tr>
 </table>
 
+<!-- ====================== LINK MANUTENZIONE ====================== -->
+
 <h2>🔧 Manutenzione pedali</h2>
-<p>Per mantenere pedali (flat e SPD) sempre fluidi e sicuri:</p>
+<p>Per mantenere i pedali sempre scorrevoli e sicuri:</p>
 <p>👉 <a class="link" href="../manutenzione/pedali.html">Vai alla guida completa sulla manutenzione dei pedali</a></p>
 
 <a href="../consigli.html" class="back-home">← Torna ai consigli</a>
